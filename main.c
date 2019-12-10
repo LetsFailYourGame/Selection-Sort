@@ -5,7 +5,7 @@
 
 int array_to_sort[10];
 
- void printArr(int *arr, int n_size)
+void printArr(int *arr, int n_size)
 {
     for(int i = 0; i < n_size; i++)
     {
