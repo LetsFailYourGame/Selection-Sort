@@ -19,6 +19,7 @@ void sort_arr(int to_sort_arr[])
 
     for (int i = 0; i < 10; i ++)
     {
+        //find min in arr
         min = i;
         for (int j = i+1; j < 10; j++)
         {
