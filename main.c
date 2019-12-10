@@ -46,7 +46,7 @@ int main()
         array_to_sort[i] = (rand() % (32 - 4 + 1)) + 4;
         printf("[%d] ", array_to_sort[i]);
     }
-    printf("\n");
+    printf("\n\n");
 
     sort_arr(array_to_sort);
 
