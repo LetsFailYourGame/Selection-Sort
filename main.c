@@ -43,7 +43,7 @@ int main()
     printf("Unsorted: ");
     for(int i = 0; i < 10; i++)
     {
-        array_to_sort[i] = (rand() % (32 - 4 + 1)) + 4;
+        array_to_sort[i] = 2 * ( rand() % 16+1);
         printf("[%d] ", array_to_sort[i]);
     }
     printf("\n\n");
